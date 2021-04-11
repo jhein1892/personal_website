@@ -1,15 +1,19 @@
 .App {
   text-align: center;
+  background-color: black;
 }
-
 .topSection {
   height: 95vh;
-  background-color: bisque;
+  background-color: black;
+  background: -webkit-linear-gradient( 270deg,black, #00001b);
+  margin: 0;
+  text-align: center;
 }
 
 .midSection {
   height: 95vh;
-  background-color: blue;
+  /* background-color: #00001b; */
+  background-color: white;
 }
 
 .bottomSection {

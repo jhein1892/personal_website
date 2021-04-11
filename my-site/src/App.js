@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import anime from 'animejs/lib/anime.es.js'
-
-
-anime({
-  targets: '.header path',
-  strokeDashoffset: [anime.setDashoffset, 3],
-  easing: 'easeInOutSine',
-  duration: 1500,
-  delay: function(el, i) { return i * 250 },
-  direction: 'alternate',
-  loop: true
-})
-
+import TopSection from './sections/topSection'
+import MidSection from './sections/midSection'
 function App() {
   return (
     <div className="App">
-      <div className="topSection">
-      </div>
+      <TopSection/>
       <div className='midSection'>
+      <MidSection/>
       </div>
       <div className='bottomSection'>
       </div>

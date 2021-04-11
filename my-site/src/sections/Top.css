@@ -1,0 +1,32 @@
+h1{
+  font-size: 15rem;
+  background: -webkit-linear-gradient( 45deg,#6925C4,  #B9232D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+  filter: drop-shadow(5px 3px #6925C4);
+}
+h3{
+  font-size: 7rem;
+  background: -webkit-linear-gradient( 45deg,#6925C4, #B9232D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h5{
+  font-size: 2rem;
+  background: -webkit-linear-gradient( 45deg,#6925C4, #B9232D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+}
+
+hr {
+  width: 70%;
+  margin: auto;
+}
+
+.topSection {
+  padding-top: 15%;
+}
