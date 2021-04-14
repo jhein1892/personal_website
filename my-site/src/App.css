@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   background-color: black;
+  max-width: 100vw;
+  
 }
 .topSection {
   height: 95vh;
@@ -11,9 +13,9 @@
 }
 
 .midSection {
-  height: 95vh;
-  /* background-color: #00001b; */
-  background-color: white;
+  min-height: 95vh;
+  background-color: #00001b;
+  /* background-color: white; */
 }
 
 .bottomSection {

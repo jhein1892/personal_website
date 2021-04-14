@@ -1,0 +1,9 @@
+.root{
+  /* background-color: cadetblue; */
+  border: white 2px solid;
+  min-width: 33%;
+  margin: auto;
+  padding: 2%;
+  margin-top: 2%;
+  color: white;
+}

@@ -20,6 +20,12 @@ const items = [
     url: 'www.google.ca',
   },
   {
+    language: 'JavaScript',
+    title: 'JS 3',
+    updated_at: '20/01/2021',
+    url: 'www.google.ca',
+  },
+  {
     language: 'Ruby',
     title: 'Ruby 1',
     updated_at: '21/02/2021',
@@ -103,31 +109,14 @@ export default function MidSection(){
   return (
     <div>
       <h1>Hello</h1>
-      <div>
-      <FormControl component="fieldset" >
-        <FormLabel component="legend">Assign responsibility</FormLabel>
-        <FormGroup>
-          <FormControlLabel
-            control={<Checkbox checked={JavaScript} onChange={handleChange} name="JavaScript" />}
-            label="JavaScript"
-          />
-          <FormControlLabel
-            control={<Checkbox checked={Ruby} onChange={handleChange} name="Ruby" />}
-            label="Ruby"
-          />
-        </FormGroup>
-      </FormControl>
-      </div>
-      {state.JavaScript &&
-        <div>
+      <div >
+        <div className ='projects'>
           {JSProjects}
         </div>
-      }
-      {state.Ruby &&
-        <div>
+        <div className ='projects'>
           {RubyProjects}
         </div>
-      }
+      </div>
     </div>
   );
 }
