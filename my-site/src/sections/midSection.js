@@ -80,14 +80,20 @@ export default function MidSection(){
   // }
 
   const JSProjects = items.map(el => {
+    console.log('el', el)
     if (el.language === 'JavaScript'){
       return (
-        <Project
-          language={el.language}
-          title={el.title}
-          updated_at={el.updated_at}
-          url={el.url}
-        />
+        <div className='projects'>
+          <div>
+          <Project
+            language={el.language}
+            title={el.title}
+            updated_at={el.updated_at}
+            url={el.url}
+          />
+          </div>
+        </div>
+
       )
     }
   })
@@ -108,13 +114,14 @@ export default function MidSection(){
   // const JSProjects = myJavaScript()
   return (
     <div>
-      <h1>Hello</h1>
+      <h3>My Projects</h3>
+      <br/>
       <div >
         <div className ='projects'>
           {JSProjects}
         </div>
         <div className ='projects'>
-          {RubyProjects}
+          {/* {RubyProjects} */}
         </div>
       </div>
     </div>

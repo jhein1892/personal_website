@@ -1,4 +1,12 @@
 .projects {
   display: flex;
   flex-direction: row;
+  margin: auto;
+}
+.project-break {
+  width: 1px;
+  height: 75px;
+  margin-left: 3%;
+  margin-right: 3%;
+  /* margin: auto; */
 }
